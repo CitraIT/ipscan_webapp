@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Nov 29 19:42:21 2022 as: nmap -vv -sT -Pn -sV -&#45;script=vulners -p 22 -d -oX 192.168.0.173 -->
+<nmaprun scanner="nmap" args="nmap -vv -sT -Pn -sV -&#45;script=vulners -p 22 -d -oX 192.168.0.173" start="1669761741" startstr="Tue Nov 29 19:42:21 2022" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="3"/>
+<debugging level="1"/>
+<taskbegin task="NSE" time="1669761741"/>
+<taskend task="NSE" time="1669761741"/>
+<taskbegin task="NSE" time="1669761741"/>
+<taskend task="NSE" time="1669761741"/>
+<taskbegin task="NSE" time="1669761741"/>
+<taskend task="NSE" time="1669761741"/>
+<taskbegin task="NSE" time="1669761741"/>
+<taskend task="NSE" time="1669761741"/>
+<runstats><finished time="1669761741" timestr="Tue Nov 29 19:42:21 2022" summary="Nmap done at Tue Nov 29 19:42:21 2022; 0 IP addresses (0 hosts up) scanned in 0.52 seconds" elapsed="0.52" exit="success"/><hosts up="0" down="0" total="0"/>
+</runstats>
+</nmaprun>

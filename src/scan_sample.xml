@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Nov 29 19:42:31 2022 as: nmap -vv -sT -Pn -sV -&#45;script=vulners -p 22 -d -oX - 192.168.0.173 -->
+<nmaprun scanner="nmap" args="nmap -vv -sT -Pn -sV -&#45;script=vulners -p 22 -d -oX - 192.168.0.173" start="1669761751" startstr="Tue Nov 29 19:42:31 2022" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="3"/>
+<debugging level="1"/>
+<taskbegin task="NSE" time="1669761752"/>
+<taskend task="NSE" time="1669761752"/>
+<taskbegin task="NSE" time="1669761752"/>
+<taskend task="NSE" time="1669761752"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1669761752"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1669761752"/>
+<taskbegin task="Connect Scan" time="1669761752"/>
+<taskend task="Connect Scan" time="1669761752" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1669761752"/>
+<taskend task="Service scan" time="1669761752" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1669761752"/>
+<taskend task="NSE" time="1669761753"/>
+<taskbegin task="NSE" time="1669761753"/>
+<taskend task="NSE" time="1669761753"/>
+<host starttime="1669761752" endtime="1669761753"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.0.173" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.5" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.5</cpe></service><script id="vulners" output="&#xa;  cpe:/a:openbsd:openssh:7.5: &#xa;    &#x9;EXPLOITPACK:98FE96309F9524B8C84C508837551A19&#x9;5.8&#x9;https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97&#x9;5.8&#x9;https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:46516&#x9;5.8&#x9;https://vulners.com/exploitdb/EDB-ID:46516&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:46193&#x9;5.8&#x9;https://vulners.com/exploitdb/EDB-ID:46193&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2019-6111&#x9;5.8&#x9;https://vulners.com/cve/CVE-2019-6111&#xa;    &#x9;1337DAY-ID-32328&#x9;5.8&#x9;https://vulners.com/zdt/1337DAY-ID-32328&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-32009&#x9;5.8&#x9;https://vulners.com/zdt/1337DAY-ID-32009&#x9;*EXPLOIT*&#xa;    &#x9;SSH_ENUM&#x9;5.0&#x9;https://vulners.com/canvas/SSH_ENUM&#x9;*EXPLOIT*&#xa;    &#x9;PACKETSTORM:150621&#x9;5.0&#x9;https://vulners.com/packetstorm/PACKETSTORM:150621&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0&#x9;5.0&#x9;https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283&#x9;5.0&#x9;https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:45939&#x9;5.0&#x9;https://vulners.com/exploitdb/EDB-ID:45939&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:45233&#x9;5.0&#x9;https://vulners.com/exploitdb/EDB-ID:45233&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2018-15919&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-15919&#xa;    &#x9;CVE-2018-15473&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-15473&#xa;    &#x9;CVE-2017-15906&#x9;5.0&#x9;https://vulners.com/cve/CVE-2017-15906&#xa;    &#x9;1337DAY-ID-31730&#x9;5.0&#x9;https://vulners.com/zdt/1337DAY-ID-31730&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2021-41617&#x9;4.4&#x9;https://vulners.com/cve/CVE-2021-41617&#xa;    &#x9;CVE-2020-14145&#x9;4.3&#x9;https://vulners.com/cve/CVE-2020-14145&#xa;    &#x9;CVE-2019-6110&#x9;4.0&#x9;https://vulners.com/cve/CVE-2019-6110&#xa;    &#x9;CVE-2019-6109&#x9;4.0&#x9;https://vulners.com/cve/CVE-2019-6109&#xa;    &#x9;CVE-2018-20685&#x9;2.6&#x9;https://vulners.com/cve/CVE-2018-20685&#xa;    &#x9;PACKETSTORM:151227&#x9;0.0&#x9;https://vulners.com/packetstorm/PACKETSTORM:151227&#x9;*EXPLOIT*&#xa;    &#x9;MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-&#x9;0.0&#x9;https://vulners.com/metasploit/MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-30937&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-30937&#x9;*EXPLOIT*"><table key="cpe:/a:openbsd:openssh:7.5">
+<table>
+<elem key="id">EXPLOITPACK:98FE96309F9524B8C84C508837551A19</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitpack</elem>
+</table>
+<table>
+<elem key="id">EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitpack</elem>
+</table>
+<table>
+<elem key="id">EDB-ID:46516</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitdb</elem>
+</table>
+<table>
+<elem key="id">EDB-ID:46193</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitdb</elem>
+</table>
+<table>
+<elem key="id">CVE-2019-6111</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">1337DAY-ID-32328</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">zdt</elem>
+</table>
+<table>
+<elem key="id">1337DAY-ID-32009</elem>
+<elem key="cvss">5.8</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">zdt</elem>
+</table>
+<table>
+<elem key="id">SSH_ENUM</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">canvas</elem>
+</table>
+<table>
+<elem key="id">PACKETSTORM:150621</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">packetstorm</elem>
+</table>
+<table>
+<elem key="id">EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitpack</elem>
+</table>
+<table>
+<elem key="id">EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitpack</elem>
+</table>
+<table>
+<elem key="id">EDB-ID:45939</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitdb</elem>
+</table>
+<table>
+<elem key="id">EDB-ID:45233</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">exploitdb</elem>
+</table>
+<table>
+<elem key="id">CVE-2018-15919</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2018-15473</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2017-15906</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">1337DAY-ID-31730</elem>
+<elem key="cvss">5.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">zdt</elem>
+</table>
+<table>
+<elem key="id">CVE-2021-41617</elem>
+<elem key="cvss">4.4</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2020-14145</elem>
+<elem key="cvss">4.3</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2019-6110</elem>
+<elem key="cvss">4.0</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2019-6109</elem>
+<elem key="cvss">4.0</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">CVE-2018-20685</elem>
+<elem key="cvss">2.6</elem>
+<elem key="is_exploit">false</elem>
+<elem key="type">cve</elem>
+</table>
+<table>
+<elem key="id">PACKETSTORM:151227</elem>
+<elem key="cvss">0.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">packetstorm</elem>
+</table>
+<table>
+<elem key="id">MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-</elem>
+<elem key="cvss">0.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">metasploit</elem>
+</table>
+<table>
+<elem key="id">1337DAY-ID-30937</elem>
+<elem key="cvss">0.0</elem>
+<elem key="is_exploit">true</elem>
+<elem key="type">zdt</elem>
+</table>
+</table>
+</script></port>
+</ports>
+<times srtt="1000" rttvar="5000" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1669761753"/>
+<taskend task="NSE" time="1669761753"/>
+<taskbegin task="NSE" time="1669761753"/>
+<taskend task="NSE" time="1669761753"/>
+<runstats><finished time="1669761753" timestr="Tue Nov 29 19:42:33 2022" summary="Nmap done at Tue Nov 29 19:42:33 2022; 1 IP address (1 host up) scanned in 1.36 seconds" elapsed="1.36" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
